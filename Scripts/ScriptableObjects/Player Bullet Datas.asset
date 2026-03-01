@@ -1,0 +1,66 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5918abae16245ac4484bb8a45f3fceb4, type: 3}
+  m_Name: Player Bullet Datas
+  m_EditorClassIdentifier: 
+  Effects:
+  - EffectName: RifleBulletData
+    Speed: 40
+    ChargeParticles: {fileID: 0}
+    ChargeParticleTime: 0
+    ChargeClip: {fileID: 0}
+    StartParticles: {fileID: 5901265137426972303, guid: 2248359051ce1f943bc5c0e82352b590,
+      type: 3}
+    BulletParticles: {fileID: 7334263244268377879, guid: cc43894aafa349e4982e8d0be98c5f12,
+      type: 3}
+    HitParticles: {fileID: 1234371104471166738, guid: b72e7c982f4c9c345a174b6910ea5841,
+      type: 3}
+    startClip: {fileID: 0}
+    bulletClip: {fileID: 0}
+    hitClip: {fileID: 0}
+    isTargeting: 0
+    RotSpeed: 0
+    isFlatShoot: 1
+  - EffectName: ShotgunBulletData
+    Speed: 15
+    ChargeParticles: {fileID: 0}
+    ChargeParticleTime: 0
+    ChargeClip: {fileID: 0}
+    StartParticles: {fileID: 520320887073830818, guid: 026db729cc472d143869e7605498ec72,
+      type: 3}
+    BulletParticles: {fileID: 2177278090331188314, guid: 26bee6af42a0e9f44b2aa8742e6bbbbd,
+      type: 3}
+    HitParticles: {fileID: 629947754881501583, guid: 76de6a5888d85b149893cb89ef3b6847,
+      type: 3}
+    startClip: {fileID: 0}
+    bulletClip: {fileID: 0}
+    hitClip: {fileID: 0}
+    isTargeting: 0
+    RotSpeed: 0
+    isFlatShoot: 1
+  - EffectName: MachinegunBulletData
+    Speed: 60
+    ChargeParticles: {fileID: 0}
+    ChargeParticleTime: 0
+    ChargeClip: {fileID: 0}
+    StartParticles: {fileID: 7791377747172389325, guid: 22f0ef14f57b3b34d84885e0442f923d,
+      type: 3}
+    BulletParticles: {fileID: 6352496620267841446, guid: 756d37cf3b5f8964cae715a9e54bd4e9,
+      type: 3}
+    HitParticles: {fileID: 4062411183944805677, guid: b2b2a3fc6a4c3444db01e70f094d7cdd,
+      type: 3}
+    startClip: {fileID: 0}
+    bulletClip: {fileID: 0}
+    hitClip: {fileID: 0}
+    isTargeting: 0
+    RotSpeed: 0
+    isFlatShoot: 1
